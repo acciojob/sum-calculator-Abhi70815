@@ -25,7 +25,7 @@ const SumCalculator = () => {
       <div>
       <h1>Sum Calculator</h1>
       <input type="number" onChange={handleInputChange} />
-      <div>Sum: {arrsum}</div>
+      <p>Sum: {arrsum}</p>
     </div>
   );
 };
